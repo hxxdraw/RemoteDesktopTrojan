@@ -93,8 +93,10 @@ Other
 /{default['stop'][0]} [path]
 
 <strong>Notes</strong>
+<i>
 1. The sent ".mp3" file will be played immediately.
 2. The sent image file will be used as wallpapers.
 3. The sent document will be saved by path from the caption.
+</i>
 """
 

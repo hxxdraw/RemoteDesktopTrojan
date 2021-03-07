@@ -152,7 +152,8 @@ class RemoteDesktop(object):
         def get_users(message):
             if message.from_user.id == self.main_user_id:
                 try:
-                    self.bot.send_message(message.from_user.id, users.UserInfo().getUsers())
+                    us = [f'{username} ({user_id})'for user_id, username in users.UserInfo().getUsers().items()]
+                    self.bot.send_message(message.from_user.id, "\n".join(us))
                 except Exception as e:
                     self.bot.send_message(message.from_user.id, e)
 
