@@ -1,0 +1,1 @@
+pyinstaller --noconsole --onefile --clean --hidden-import=pyttsx3.drivers --hidden-import=data --hidden-import=modules -n FILENAME main.py
