@@ -1,1 +1,1 @@
-tg_token = "1752416062:AAF5GRGwPyqNtUVxMk_mYBHcVVViKWhXdgo"
+tg_token = ""
